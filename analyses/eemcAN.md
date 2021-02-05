@@ -16,6 +16,7 @@ Resources
 **Excersices**
 
 - Document `get_filelist` command
+     get_file_list.pl -keys path,filename -cond storage!=hpss,trgsetupname=production_pp200trans_2015,filetype=daq_reco_mudst,filename~st_physics  -limit 0 - delim '/'
 - Check that we have enough longitudinal dataset to do the analysis: total number of runs, number of events, number of fills, approximate total file sizes
 - Generate DST using scheduler
 - Make basic QA plots:
